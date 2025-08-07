@@ -1,0 +1,30 @@
+__pycache__
+.venv
+venv
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+config.json
+ 
+# Telegram sessions
+sessions/
+*.session
+*.session-journal
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Python caches & test artifacts
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
